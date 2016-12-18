@@ -1,0 +1,9 @@
+ros ——XML概念
+a.The <launch> tag is the root element of any roslaunch file. Its sole purpose is to act as a container for the other elements.
+//<launch>标签是任何roslaunch文件的根元素。 其唯一的目的是作为其他元素的容器。
+b.The <node> tag specifies a ROS node that you wish to have launched. This is the most common roslaunch tag as it supports the most important features: bringing up and taking down nodes.
+//<node>标签为指定您需要启动的界定节点名称，是常见的roslaunch的标签之一，可以被唤醒和终止
+//eg.<node name="bar1" pkg="foo_pkg" type="bar" args="$(find baz_pkg)/resources/map.pgm" />
+  解释：node name：node名称。
+        pkg：node所属功能包名称
+        type：
